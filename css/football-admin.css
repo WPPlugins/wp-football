@@ -1,0 +1,36 @@
+
+.icon-wp-football {
+	background: transparent url(../images/wp-football.png) no-repeat;
+}
+
+#extra {
+    position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: transparent;
+	text-align: center;
+	z-index:1;
+}
+#loading {
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 30%;
+	background-color:#f1f1f1;
+	border: 1px solid #444;
+	padding: 20px;
+}
+
+.disabled {
+	background-color:#e6e7e8 !important;
+}	
+
+.fields {
+	display: block;
+}
+table.d_fields td {
+	padding: 0px 10px 5px 10px !important;
+}	
+
+.aligncenter { text-align: center; }

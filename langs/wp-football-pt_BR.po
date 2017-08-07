@@ -1,0 +1,1245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-football\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-20 21:46-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Newton de Góes Horta <nghorta@gmail.com>\n"
+"Language-Team: Newton de Góes Horta <nghorta@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\Arquivos de programas\\EasyPHP 2.0b1\\www\\wordpress\\wp-content\\plugins\\wp-football\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: football-functions.php:137
+#: football_classification.php:62
+msgid "Team"
+msgstr "Equipe"
+
+#: football-functions.php:138
+#: football_classification.php:63
+msgid "Pts"
+msgstr "PG"
+
+#: football-functions.php:139
+msgid "P"
+msgstr "J"
+
+#: football-functions.php:140
+#: football_classification.php:65
+msgid "W"
+msgstr "V"
+
+#: football-functions.php:141
+#: football_classification.php:66
+msgid "D"
+msgstr "E"
+
+#: football-functions.php:142
+#: football_classification.php:67
+msgid "L"
+msgstr "D"
+
+#: football-functions.php:143
+#: football_classification.php:68
+msgid "GF"
+msgstr "GP"
+
+#: football-functions.php:144
+#: football_classification.php:69
+msgid "GA"
+msgstr "GC"
+
+#: football-functions.php:145
+#: football_classification.php:70
+msgid "GD"
+msgstr "SG"
+
+#: football-functions.php:191
+#: football-functions.php:282
+msgid "Match times are currently set to local time, please click here to convert to your time zone."
+msgstr "Os horários dos jogos estão em horário local. Por favor clique aqui para converter para seu fuso horário. "
+
+#: football-functions.php:191
+#: football-functions.php:282
+msgid "Match times are currently set to your time zone, please click here to revert to local time."
+msgstr "Os horários dos jogos estão no seu fuso horário. Por favor clique aqui para reverter para horário local. "
+
+#: football-functions.php:208
+#: football-functions.php:294
+#: football-matches.php:131
+#: football_matches_list.php:55
+#: football_matches_load.php:58
+msgid "Match"
+msgstr "Jogo"
+
+#: football-functions.php:209
+#: football-functions.php:296
+msgid "Date-Time"
+msgstr "Data-Hora"
+
+#: football-functions.php:210
+#: football-manager.php:280
+#: football-results.php:136
+msgid "Results"
+msgstr "Resultados"
+
+#: football-functions.php:211
+#: football-functions.php:298
+#: football-matches.php:231
+#: football-templates.php:164
+msgid "City"
+msgstr "Cidade"
+
+#: football-functions.php:212
+#: football-functions.php:299
+#: football-matches.php:225
+#: football-templates.php:165
+#: football_matches_list.php:62
+#: football_matches_load.php:65
+msgid "Stadium"
+msgstr "Estádio"
+
+#: football-functions.php:291
+msgid "Day: "
+msgstr "Dia: "
+
+#: football-functions.php:297
+#: football-manager.php:277
+msgid "Matches"
+msgstr "Jogos"
+
+#: football-groups.php:4
+msgid "Group save successfully."
+msgstr "Grupo salvo com sucesso."
+
+#: football-groups.php:5
+#: football-manager.php:5
+#: football-matches.php:5
+#: football-phases.php:5
+#: football-results.php:5
+#: football-teams.php:5
+#: football-templates.php:6
+#: football-update_phase.php:4
+msgid "Error!"
+msgstr "Erro!"
+
+#: football-groups.php:6
+msgid "Group(s) deleted successfully."
+msgstr "Grupo(s) excluído(s) com sucesso."
+
+#: football-groups.php:7
+msgid "Group changed successfully."
+msgstr "Grupo alterado com sucesso."
+
+#: football-groups.php:49
+#: football-phases.php:48
+msgid "Order field must be filled"
+msgstr "Campo Ordem deve ser preenchido"
+
+#: football-groups.php:50
+#: football-manager.php:45
+#: football-phases.php:49
+#: football-teams.php:48
+#: football-templates.php:46
+msgid "Name field must be filled"
+msgstr "Campo Nome deve ser preenchido"
+
+#: football-groups.php:78
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: football-groups.php:81
+msgid "New Group"
+msgstr "Novo Grupo"
+
+#: football-groups.php:92
+#: football-manager.php:278
+msgid "Groups"
+msgstr "Grupos"
+
+#: football-groups.php:95
+#: football-manager.php:94
+#: football-matches.php:134
+#: football-phases.php:94
+#: football-results.php:139
+#: football-teams.php:101
+#: football-templates.php:95
+#: football-update_phase.php:77
+msgid "Back to Manage League"
+msgstr "Voltar para Administrar Campeonato"
+
+#: football-groups.php:105
+#: football-manager.php:91
+#: football-matches.php:144
+#: football-phases.php:104
+#: football-results.php:149
+#: football-teams.php:111
+#: football-update_phase.php:87
+msgid "League"
+msgstr "Campeonato"
+
+#: football-groups.php:108
+#: football-matches.php:147
+#: football-matches.php:158
+#: football-matches.php:170
+#: football-matches.php:188
+#: football-matches.php:201
+#: football-phases.php:107
+#: football-results.php:152
+#: football-results.php:163
+#: football-results.php:175
+#: football-teams.php:114
+#: football-teams.php:149
+#: football-teams.php:161
+#: football-templates.php:114
+#: football-update_phase.php:90
+#: football-update_phase.php:101
+msgid "--- Select ---"
+msgstr "--- Selecione ---"
+
+#: football-groups.php:116
+#: football-phases.php:115
+#: football_groups_list.php:56
+msgid "Order"
+msgstr "Ordem"
+
+#: football-groups.php:122
+#: football-manager.php:105
+#: football-manager.php:255
+#: football-phases.php:121
+#: football-teams.php:122
+#: football-templates.php:105
+#: football-templates.php:251
+#: football_groups_list.php:57
+msgid "Name"
+msgstr "Nome"
+
+#: football-groups.php:128
+#: football-phases.php:127
+#: football-teams.php:128
+#: football_groups_list.php:58
+msgid "Name Abbreviated"
+msgstr "Nome Abreviado"
+
+#: football-groups.php:138
+#: football-manager.php:181
+#: football-matches.php:259
+#: football-phases.php:137
+#: football-teams.php:174
+#: football-templates.php:175
+msgid "Save"
+msgstr "Salvar"
+
+#: football-groups.php:140
+#: football-manager.php:183
+#: football-matches.php:261
+#: football-phases.php:139
+#: football-results.php:192
+#: football-teams.php:176
+#: football-templates.php:177
+#: football_classification.php:95
+#: football_criteria.php:83
+msgid "Change"
+msgstr "Alterar"
+
+#: football-groups.php:168
+#: football-matches.php:289
+#: football-phases.php:167
+#: football-results.php:224
+#: football-teams.php:205
+#: football-update_phase.php:167
+msgid "Loading. Wait..."
+msgstr "Carregando. Aguarde..."
+
+#: football-manager.php:4
+msgid "League save successfully."
+msgstr "Campeonato salvo com sucesso."
+
+#: football-manager.php:6
+msgid "League deleted successfully."
+msgstr "Campeonato excluído com sucesso."
+
+#: football-manager.php:7
+msgid "League changed successfully."
+msgstr "Campeonato alterado com sucesso."
+
+#: football-manager.php:46
+msgid "Country field must be filled"
+msgstr "País deve ser preenchido"
+
+#: football-manager.php:47
+msgid "Season field must be filled"
+msgstr "Temporada deve ser preenchida"
+
+#: football-manager.php:81
+msgid "Edit League"
+msgstr "Editar Campeonato"
+
+#: football-manager.php:84
+msgid "New League"
+msgstr "Novo Campeonato"
+
+#: football-manager.php:111
+msgid "Description"
+msgstr "Descrição"
+
+#: football-manager.php:117
+#: football-manager.php:256
+#: football-teams.php:146
+msgid "Continent"
+msgstr "Continente"
+
+#: football-manager.php:123
+#: football-manager.php:257
+msgid "Country"
+msgstr "País"
+
+#: football-manager.php:129
+msgid "Matches Timezone"
+msgstr "Jogos Timezone"
+
+#: football-manager.php:151
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: football-manager.php:158
+#: football-manager.php:259
+msgid "Season"
+msgstr "Temporada"
+
+#: football-manager.php:164
+#: football-manager.php:260
+msgid "Icons Directory"
+msgstr "Diretório de Ícones"
+
+#: football-manager.php:166
+msgid "Attention: Except for the World Cup 2010 set the icons directory outside the directory of the plugin"
+msgstr "Atenção: Exceto para a Copa do Mundo de 2010 informe o diretório de ícones fora do diretório do plugin"
+
+#: football-manager.php:170
+#: football-manager.php:261
+msgid "Active"
+msgstr "Ativo"
+
+#: football-manager.php:172
+#: football-manager.php:281
+msgid "No"
+msgstr "Não"
+
+#: football-manager.php:173
+#: football-manager.php:281
+#: football-uninstall.php:133
+msgid "Yes"
+msgstr "Sim"
+
+#: football-manager.php:183
+msgid "Classification Criteria"
+msgstr "Critérios de Classificação"
+
+#: football-manager.php:223
+#: football-templates.php:220
+#: football_groups_list.php:26
+#: football_matches_list.php:25
+#: football_matches_load.php:28
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: football-manager.php:224
+#: football-templates.php:221
+#: football_groups_list.php:27
+#: football_matches_list.php:26
+#: football_matches_load.php:29
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: football-manager.php:234
+msgid "Manage Leagues"
+msgstr "Administrar Campeonatos"
+
+#: football-manager.php:235
+msgid "Excluding these League ?"
+msgstr "Exclui este Campeonato?"
+
+#: football-manager.php:238
+#: football-templates.php:235
+#: football_groups_list.php:41
+#: football_matches_list.php:40
+#: football_matches_load.php:43
+msgid "Delete"
+msgstr "Excluir"
+
+#: football-manager.php:239
+msgid "Add new League"
+msgstr "Adicionar novo Campeonato"
+
+#: football-manager.php:242
+#: football-templates.php:238
+#: football_groups_list.php:44
+#: football_matches_list.php:43
+#: football_matches_load.php:46
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Exibindo %s&#8211;%s de %s"
+
+#: football-manager.php:254
+#: football-templates.php:250
+msgid "Id"
+msgstr "Id"
+
+#: football-manager.php:258
+msgid "Timezone"
+msgstr "Timezone"
+
+#: football-manager.php:275
+#: football-templates.php:284
+#: football_groups_list.php:78
+msgid "Edit"
+msgstr "Editar"
+
+#: football-manager.php:276
+#: football-teams.php:98
+msgid "Teams"
+msgstr "Equipes"
+
+#: football-manager.php:279
+#: football-phases.php:91
+msgid "Phases"
+msgstr "Fases"
+
+#: football-matches.php:4
+#: football-results.php:4
+msgid "Match save successfully."
+msgstr "Jogo salvo com sucesso."
+
+#: football-matches.php:6
+#: football-results.php:6
+msgid "Match(es) deleted successfully."
+msgstr "Jogo(s) excluído(s) com sucesso."
+
+#: football-matches.php:7
+#: football-results.php:7
+msgid "Match changed successfully."
+msgstr "Jogo alterado com sucesso."
+
+#: football-matches.php:59
+#: football-results.php:32
+msgid "Group field must be filled"
+msgstr "Campo Grupo deve ser preenchido"
+
+#: football-matches.php:60
+#: football-results.php:29
+#: football-teams.php:49
+#: football-update_phase.php:26
+msgid "League field must be filled"
+msgstr "Campo Campeonato deve ser preenchido"
+
+#: football-matches.php:61
+#: football-update_phase.php:28
+msgid "Team1 field must be filled"
+msgstr "Campo Equipe1 deve ser preenchido"
+
+#: football-matches.php:62
+#: football-update_phase.php:29
+msgid "Team2 field must be filled"
+msgstr "Campo Equipe2 deve ser preenchido"
+
+#: football-matches.php:63
+msgid "Day field must be filled"
+msgstr "Campo Dia deve ser preenchido."
+
+#: football-matches.php:64
+msgid "Month field must be filled"
+msgstr "Campo Mês deve ser preenchido"
+
+#: football-matches.php:65
+msgid "Year field must be filled"
+msgstr "Campo Ano deve ser preenchido"
+
+#: football-matches.php:66
+msgid "Time field must be filled"
+msgstr "Campo Equipe deve ser preenchido"
+
+#: football-matches.php:107
+msgid "Edit Match"
+msgstr "Editar Jogo"
+
+#: football-matches.php:110
+msgid "New Match"
+msgstr "Novo Jogo"
+
+#: football-matches.php:155
+#: football-results.php:160
+#: football-update_phase.php:98
+#: football_matches_list.php:56
+#: football_matches_load.php:59
+msgid "Phase"
+msgstr "Fase"
+
+#: football-matches.php:167
+#: football-results.php:172
+#: football-teams.php:158
+#: football_matches_list.php:57
+#: football_matches_load.php:60
+msgid "Group"
+msgstr "Grupo"
+
+#: football-matches.php:179
+#: football-templates.php:158
+msgid "Match Number"
+msgstr "Jogo Número"
+
+#: football-matches.php:185
+#: football-update_phase.php:111
+#: football_matches_list.php:60
+#: football_matches_load.php:63
+msgid "Team 1"
+msgstr "Equipe 1"
+
+#: football-matches.php:189
+#: football-matches.php:202
+#: football-update_phase.php:114
+#: football-update_phase.php:126
+msgid "Not Defined"
+msgstr "Não Definido"
+
+#: football-matches.php:198
+#: football-update_phase.php:123
+#: football_matches_list.php:61
+#: football_matches_load.php:64
+msgid "Team 2"
+msgstr "Equipe 2"
+
+#: football-matches.php:211
+#: football_matches_list.php:58
+#: football_matches_load.php:61
+msgid "Date"
+msgstr "Data"
+
+#: football-matches.php:213
+msgid "Day"
+msgstr "Dia"
+
+#: football-matches.php:214
+msgid "Month"
+msgstr "Mês"
+
+#: football-matches.php:215
+msgid "Year"
+msgstr "Ano"
+
+#: football-matches.php:219
+#: football_matches_list.php:59
+#: football_matches_load.php:62
+msgid "Time"
+msgstr "Horário"
+
+#: football-matches.php:237
+#: football_matches_list.php:63
+#: football_matches_load.php:66
+msgid "Score 1"
+msgstr "Placar 1"
+
+#: football-matches.php:243
+#: football_matches_list.php:64
+#: football_matches_load.php:67
+msgid "Score 2"
+msgstr "Placar 2"
+
+#: football-matches.php:249
+#: football_matches_list.php:65
+#: football_matches_load.php:68
+msgid "Remark"
+msgstr "Observação"
+
+#: football-phases.php:4
+msgid "Phase save successfully."
+msgstr "Fase salva com sucesso."
+
+#: football-phases.php:6
+msgid "Phase(s) deleted successfully."
+msgstr "Fase(s) excluída(s) com sucesso."
+
+#: football-phases.php:7
+msgid "Phase changed successfully."
+msgstr "Fase alterada com sucesso."
+
+#: football-phases.php:77
+msgid "Edit Phase"
+msgstr "Editar Fase"
+
+#: football-phases.php:80
+msgid "New Phase"
+msgstr "Nova Fase"
+
+#: football-results.php:30
+msgid "Match not selected"
+msgstr "Jogo não selecionado"
+
+#: football-results.php:31
+msgid "Phase field must be filled"
+msgstr "Campo Fase deve ser preenchido"
+
+#: football-results.php:33
+msgid "Score1 field must be filled"
+msgstr "Campo Score1 deve ser preenchido"
+
+#: football-results.php:34
+msgid "Score2 field must be filled"
+msgstr "Campo Score2 deve ser preenchido"
+
+#: football-results.php:124
+msgid "Edit Result"
+msgstr "Editar Resultado"
+
+#: football-results.php:184
+msgid "Result"
+msgstr "Resultado"
+
+#: football-results.php:194
+#: football_groups_list.php:78
+msgid "Classification"
+msgstr "Classificação"
+
+#: football-teams.php:4
+msgid "Team save successfully."
+msgstr "Equipe salva com sucesso."
+
+#: football-teams.php:6
+msgid "Team(s) deleted successfully."
+msgstr "Equipe(s) excluída(s) com sucesso."
+
+#: football-teams.php:7
+msgid "Team changed successfully."
+msgstr "Equipe alterada com sucesso."
+
+#: football-teams.php:81
+msgid "Edit Team"
+msgstr "Editar Equipe"
+
+#: football-teams.php:84
+msgid "New Team"
+msgstr "Nova Equipe"
+
+#: football-teams.php:134
+msgid "Symbol"
+msgstr "Símbolo"
+
+#: football-teams.php:140
+msgid "Information Link"
+msgstr "Link Informação"
+
+#: football-templates.php:5
+msgid "Template save successfully."
+msgstr "Template salvo com sucesso."
+
+#: football-templates.php:7
+msgid "Template(s) deleted successfully."
+msgstr "Template(s) excluído(s) com sucesso."
+
+#: football-templates.php:8
+msgid "Template changed successfully."
+msgstr "Template alterado com sucesso."
+
+#: football-templates.php:47
+msgid "Category field must be filled"
+msgstr "Campo Categoria deve ser preenchido."
+
+#: football-templates.php:48
+msgid "Program field must be filled"
+msgstr "Campo Programa deve ser preenchido"
+
+#: football-templates.php:78
+msgid "Edit Template"
+msgstr "Editar Template"
+
+#: football-templates.php:81
+msgid "New Template"
+msgstr "Novo Template"
+
+#: football-templates.php:92
+msgid "Templates"
+msgstr "Templates"
+
+#: football-templates.php:111
+#: football-templates.php:252
+msgid "Category"
+msgstr "Categoria"
+
+#: football-templates.php:115
+msgid "Widget"
+msgstr "Widget"
+
+#: football-templates.php:116
+msgid "Page/Post"
+msgstr "Página/Post"
+
+#: football-templates.php:121
+#: football-templates.php:253
+msgid "Program"
+msgstr "Programa"
+
+#: football-templates.php:127
+msgid "Classification: Select fields to be displayed"
+msgstr "Classificação: Selecione os campos a serem exibidos"
+
+#: football-templates.php:131
+#: football-templates.php:159
+msgid "Team name"
+msgstr "Nome da Equipe"
+
+#: football-templates.php:132
+#: football-templates.php:160
+msgid "Team name abbreviated"
+msgstr "Nome abreviado da equipe"
+
+#: football-templates.php:133
+#: football-templates.php:163
+msgid "Icon"
+msgstr "Ícone"
+
+#: football-templates.php:136
+msgid "Played (Pld)"
+msgstr "Jogos (J)"
+
+#: football-templates.php:137
+msgid "Won (W)"
+msgstr "Vitórias (V)"
+
+#: football-templates.php:138
+msgid "Draw (D)"
+msgstr "Empates (E)"
+
+#: football-templates.php:141
+msgid "Loss (L)"
+msgstr "Derrotas (D)"
+
+#: football-templates.php:142
+msgid "Goals For (GF)"
+msgstr "Gols Pró (GP)"
+
+#: football-templates.php:143
+msgid "Goals Against (GA)"
+msgstr "Gols Contra (GC)"
+
+#: football-templates.php:146
+msgid "Points (Pts)"
+msgstr "Pontos (PG)"
+
+#: football-templates.php:147
+msgid "Classification (Clas)"
+msgstr "Classificação (Clas)"
+
+#: football-templates.php:154
+msgid "Matches: Select fields to be displayed"
+msgstr "Jogos: Selecione os campos a serem exibidos"
+
+#: football-templates.php:231
+msgid "List of Templates"
+msgstr "Lista de Templates"
+
+#: football-templates.php:232
+msgid "Excluding these Templates ?"
+msgstr "Exclui este(s) Template(s) ?"
+
+#: football-templates.php:254
+msgid "Classification Fields"
+msgstr "Campos da Classificação"
+
+#: football-templates.php:255
+msgid "Matches Fields"
+msgstr "Campos dos Jogos"
+
+#: football-templates.php:256
+#: football_groups_list.php:59
+msgid "Actions"
+msgstr "Ações"
+
+#: football-templates.php:272
+msgid "Preview"
+msgstr "Preview"
+
+#: football-uninstall.php:39
+#: football-uninstall.php:134
+msgid "UNINSTALL wp-football"
+msgstr "Desinstalar wp-football"
+
+#: football-uninstall.php:46
+#, php-format
+msgid "Table '%s' has been deleted."
+msgstr "Tabela '%s' foi excluída."
+
+#: football-uninstall.php:55
+#, php-format
+msgid "Setting Key '%s' has been deleted."
+msgstr "Opção '%s' foi excluída."
+
+#: football-uninstall.php:59
+#, php-format
+msgid "Error deleting Setting Key '%s'."
+msgstr "Erro ao excluir a opção '%s'."
+
+#: football-uninstall.php:81
+#: football-uninstall.php:92
+msgid "Uninstall wp-football"
+msgstr "Desinstalar wp-football"
+
+#: football-uninstall.php:82
+#, php-format
+msgid "<a href=\"%s\">Click Here</a> To Finish The Uninstallation And wp-football Will Be Deactivated Automatically."
+msgstr "<a href=\"%s\">Clique Aqui</a> Para finalizar a desinstalação e o plugin wp-football será automaticamente desativado."
+
+#: football-uninstall.php:94
+msgid "Deactivating wp-football plugin does not remove any data that may have been created, such as the wp-football options and the wp-football tables. To completely remove this plugin, you can uninstall it here."
+msgstr "Desativar o plugin wp-football não remove qualquer dado que foi criado, tais como as opções e as tabelas. Para remover completamente este plugin você pode desinstalá-lo aqui."
+
+#: football-uninstall.php:97
+msgid "WARNING:"
+msgstr "AVISO:"
+
+#: football-uninstall.php:98
+msgid "Once uninstalled, this cannot be undone. You should use a Database Backup plugin of WordPress to back up all the data first."
+msgstr "Uma vez desinstalado, isto não pode mais ser desfeito. Você pode usar o plugin Database Backup do Wordpress para antes salvar todos os dados. "
+
+#: football-uninstall.php:101
+msgid "The following WordPress Options/Tables will be DELETED:"
+msgstr "As seguintes Opções/Tabelas serão EXCLUÍDAS:"
+
+#: football-uninstall.php:106
+msgid "WordPress Options"
+msgstr "Opções WordPress"
+
+#: football-uninstall.php:107
+msgid "WordPress Tables"
+msgstr "Tabelas WordPress"
+
+#: football-uninstall.php:134
+msgid ""
+"You Are About To Uninstall wp-football From WordPress.\\n"
+"This Action Is Not Reversible.\\n"
+"\\n"
+" Choose [Cancel] To Stop, [OK] To Uninstall."
+msgstr ""
+"Você esta prestes a desinstalar o plugin wp-football do Wordpress.\\n"
+"Esta ação é irreversível.\\n"
+" Selecione [Cancelar] para sair, [OK] para desinstalar."
+
+#: football-update_phase.php:5
+msgid "Teams Match updated successfully."
+msgstr "Equipes do jogo atualizada com sucesso."
+
+#: football-update_phase.php:27
+msgid "Phase to be updated must be filled"
+msgstr "Fase a ser atualizada deve ser preenchida"
+
+#: football-update_phase.php:62
+#: football-update_phase.php:74
+msgid "Update Teams Phase"
+msgstr "Atualizar Times Fase"
+
+#: football-update_phase.php:138
+msgid "Update"
+msgstr "Atualizar"
+
+#: football_classification.php:39
+msgid "Classification changed successfully."
+msgstr "Classificação alterada com sucesso."
+
+#: football_classification.php:58
+msgid "CLASSIFICATION "
+msgstr "CLASSIFICAÇÃO "
+
+#: football_classification.php:61
+msgid "Clas"
+msgstr "Clas"
+
+#: football_classification.php:64
+msgid "Pld"
+msgstr "J"
+
+#: football_criteria.php:41
+msgid "Classification criteria changed successfully."
+msgstr "Critérios de Classificação alterado com sucesso."
+
+#: football_criteria.php:46
+msgid "Classification Criteria - League: "
+msgstr "Critérios de Classificação - Campeonato: "
+
+#: football_criteria.php:49
+msgid "Settings Points"
+msgstr "Defina os Pontos"
+
+#: football_criteria.php:54
+msgid "Points for win"
+msgstr "Pontos por vitória"
+
+#: football_criteria.php:58
+msgid "Points for draw"
+msgstr "Pontos por empate"
+
+#: football_criteria.php:62
+msgid "Order of tie breaker criteria "
+msgstr "Ordem dos critérios de desempate"
+
+#: football_criteria.php:65
+msgid "Do not fill the order field, if the criterion is not used in the league"
+msgstr "Não preencha o campo ordem se o critério não é utilizado no campeonato"
+
+#: football_criteria.php:68
+msgid "Number of wins"
+msgstr "Número de vitórias"
+
+#: football_criteria.php:72
+msgid "Goals difference"
+msgstr "Saldo de Gols"
+
+#: football_criteria.php:77
+msgid "Goals for"
+msgstr "Gols pró"
+
+#: football_groups_list.php:37
+msgid "List of Groups"
+msgstr "Lista de Grupo"
+
+#: football_groups_list.php:38
+msgid "Delete this(these) group(s), teams and matches related ?"
+msgstr "Exclui este(s) grupo(s), equipes e jogos relacionados ?"
+
+#: football_import_wc2010.php:4
+msgid "GROUP A"
+msgstr "GRUPO A"
+
+#: football_import_wc2010.php:5
+msgid "GROUP B"
+msgstr "GRUPO B"
+
+#: football_import_wc2010.php:6
+msgid "GROUP C"
+msgstr "GRUPO C"
+
+#: football_import_wc2010.php:7
+msgid "GROUP D"
+msgstr "GRUPO D"
+
+#: football_import_wc2010.php:8
+msgid "GROUP E"
+msgstr "GRUPO E"
+
+#: football_import_wc2010.php:9
+msgid "GROUP F"
+msgstr "GRUPO F"
+
+#: football_import_wc2010.php:10
+msgid "GROUP G"
+msgstr "GRUPO G"
+
+#: football_import_wc2010.php:11
+msgid "GROUP H"
+msgstr "GRUPO H"
+
+#: football_import_wc2010.php:12
+msgid "ROUND OF 16"
+msgstr "OITAVAS"
+
+#: football_import_wc2010.php:13
+msgid "QUARTER-FINALS"
+msgstr "QUARTAS DE FINAIS"
+
+#: football_import_wc2010.php:14
+msgid "SEMI-FINALS"
+msgstr "SEMIFINAIS"
+
+#: football_import_wc2010.php:15
+msgid "FINALS"
+msgstr "FINAIS"
+
+#: football_import_wc2010.php:84
+msgid "Group Stage"
+msgstr "Primeira Fase"
+
+#: football_import_wc2010.php:85
+msgid "Round of 16"
+msgstr "Oitavas de Finais"
+
+#: football_import_wc2010.php:86
+msgid "Quarter-Finals"
+msgstr "Quartas de Finais"
+
+#: football_import_wc2010.php:87
+msgid "Semi-finals"
+msgstr "Semifinais"
+
+#: football_import_wc2010.php:88
+msgid "Finals"
+msgstr "Finais"
+
+#: football_import_wc2010.php:90
+msgid "Brazil"
+msgstr "Brasil"
+
+#: football_import_wc2010.php:91
+msgid "South Africa"
+msgstr "África do Sul"
+
+#: football_import_wc2010.php:92
+msgid "Ghana"
+msgstr "Gana"
+
+#: football_import_wc2010.php:93
+msgid "Paraguay"
+msgstr "Paraguai"
+
+#: football_import_wc2010.php:94
+msgid "Australia"
+msgstr "Austrália"
+
+#: football_import_wc2010.php:95
+msgid "Korea DPR"
+msgstr "Coréia do Norte"
+
+#: football_import_wc2010.php:96
+msgid "Korea Republic"
+msgstr "Coréia do Sul"
+
+#: football_import_wc2010.php:97
+msgid "Japan"
+msgstr "Japão"
+
+#: football_import_wc2010.php:98
+msgid "Spain"
+msgstr "Espanha"
+
+#: football_import_wc2010.php:99
+msgid "Netherlands"
+msgstr "Holanda"
+
+#: football_import_wc2010.php:100
+msgid "England"
+msgstr "Inglaterra"
+
+#: football_import_wc2010.php:101
+msgid "Côte d Ivoire"
+msgstr "Costa do Marfim"
+
+#: football_import_wc2010.php:102
+msgid "Germany"
+msgstr "Alemanha"
+
+#: football_import_wc2010.php:103
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: football_import_wc2010.php:104
+msgid "Serbia"
+msgstr "Servia"
+
+#: football_import_wc2010.php:105
+msgid "Italy"
+msgstr "Itália"
+
+#: football_import_wc2010.php:107
+msgid "Mexico"
+msgstr "México"
+
+#: football_import_wc2010.php:109
+msgid "Switzerland"
+msgstr "Suiça"
+
+#: football_import_wc2010.php:110
+msgid "Slovakia"
+msgstr "Eslováquia"
+
+#: football_import_wc2010.php:113
+msgid "New Zealand"
+msgstr "Nova Zelândia"
+
+#: football_import_wc2010.php:114
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: football_import_wc2010.php:115
+msgid "Cameroon"
+msgstr "Camarões"
+
+#: football_import_wc2010.php:116
+msgid "Algeria"
+msgstr "Argélia"
+
+#: football_import_wc2010.php:117
+msgid "Greece"
+msgstr "Grécia"
+
+#: football_import_wc2010.php:119
+msgid "Slovenia"
+msgstr "Eslovênia"
+
+#: football_import_wc2010.php:120
+msgid "France"
+msgstr "França"
+
+#: football_import_wc2010.php:121
+msgid "Uruguay"
+msgstr "Uruguai"
+
+#: football_matches_list.php:36
+#: football_matches_load.php:39
+msgid "List of Matches"
+msgstr "Lista de Jogos"
+
+#: football_matches_list.php:37
+msgid "Excluding this(these) Match(es) ?"
+msgstr "Exclui este(s) Jogo(s) ?"
+
+#: football_matches_list.php:66
+#: football_matches_load.php:69
+msgid "Action"
+msgstr "Ação"
+
+#: football_matches_list.php:98
+#: football_matches_load.php:101
+msgid "Change Team"
+msgstr "Alterar Equipe"
+
+#: football_matches_load.php:40
+msgid "Excluding these Matches ?"
+msgstr "Exclui estes Jogos ?"
+
+#: football_phases_list.php:37
+msgid "List of phases"
+msgstr "Lista de Fases"
+
+#: football_phases_list.php:38
+msgid "Delete this(these) phase(s) and matches related ?"
+msgstr "Exclua esta(s) fase(s) e jogos relacionados ?"
+
+#: football_phases_list.php:77
+msgid "Change Phase"
+msgstr "Alterar Fase"
+
+#: football_teams_list.php:35
+msgid "List of Teams"
+msgstr "Lista de Equipes"
+
+#: football_teams_list.php:36
+msgid "Excluding these Teams ?"
+msgstr "Exclui estas Equipes ?"
+
+#: football_teams_list.php:58
+msgid "Link Information"
+msgstr "Link Informação"
+
+#: wp-football.php:55
+#: wp-football.php:170
+msgid "Football"
+msgstr "Futebol"
+
+#: wp-football.php:58
+msgid "Manage League"
+msgstr "Administrar Campeonato"
+
+#: wp-football.php:115
+msgid "Championship Football"
+msgstr "Campeonato de Futebol"
+
+#: wp-football.php:116
+msgid "Football League"
+msgstr "Campeonato de Futebol"
+
+#: wp-football.php:183
+msgid "Title:"
+msgstr "Título:"
+
+#: wp-football.php:186
+msgid "Type:"
+msgstr "Tipo:"
+
+#: wp-football.php:191
+msgid "Next Matches"
+msgstr "Próximos Jogos"
+
+#: wp-football.php:196
+msgid "League:"
+msgstr "Campeonato:"
+
+#: wp-football.php:206
+msgid "Phase:"
+msgstr "Fase:"
+
+#: wp-football.php:215
+msgid "Group:"
+msgstr "Grupos:"
+
+#: wp-football.php:217
+msgid "All"
+msgstr "Todos"
+
+#: wp-football.php:225
+msgid "Template:"
+msgstr "Template:"
+
+#: wp-football.php:410
+#: wp-football.php:428
+msgid "Wait..."
+msgstr "Aguarde..."
+
+#~ msgid "G"
+#~ msgstr "G"
+#~ msgid "Excluding these Groups ?"
+#~ msgstr "Exclui estes Grupos ?"
+#~ msgid "Excluding these phases ?"
+#~ msgstr "Exclui estas Fases ?"
+#~ msgid "Developing"
+#~ msgstr "Em desenvolvimento"
+#~ msgid "Change Template"
+#~ msgstr "Alterar Template"
+#~ msgid "Change Group"
+#~ msgstr "Alterar Grupo"
+#~ msgid "F"
+#~ msgstr "GF"
+#~ msgid "A"
+#~ msgstr "GC"
+#~ msgid "Uninstall wp-footbal"
+#~ msgstr "Desinstalar wp-football"
+#~ msgid "Venue"
+#~ msgstr "Local"
+#~ msgid "Score"
+#~ msgstr "Placar"
+#~ msgid "Layout:"
+#~ msgstr "Layout:"
+#~ msgid "Compact Version"
+#~ msgstr "Versão Compacta"
+#~ msgid "Extended Verion"
+#~ msgstr "Versão Extendida"
+#~ msgid "MP"
+#~ msgstr "J"
+#~ msgid "Teams classified:"
+#~ msgstr "Times classificados:"
+#~ msgid "Matches of Week:"
+#~ msgstr "Jogos da Semana:"
+#~ msgid "Groups:"
+#~ msgstr "Grupos:"
+#~ msgid "Stadium field must be filled"
+#~ msgstr "Campo Estádio deve ser preenchido"
+#~ msgid "-- Select --"
+#~ msgstr "-- Selecione --"
+#~ msgid "League: "
+#~ msgstr "Campeonato:"
+#~ msgid ""
+#~ "Os hor&aacute;rios dos jogos est&atilde;o em hor&aacute;rio local. Por "
+#~ "favor clique aqui para converter para seu fuso hor&aacute;rio."
+#~ msgstr ""
+#~ "Os hor&aacute;rios dos jogos est&atilde;o em hor&aacute;rio local. Por "
+#~ "favor clique aqui para converter para seu fuso hor&aacute;rio."
+#~ msgid ""
+#~ "Os hor&aacute;rios dos jogos est&atilde;o no seu fuso hor&aacute;rio. Por "
+#~ "favor clique aqui para reverter para hor&aacute;rio local."
+#~ msgstr ""
+#~ "Os hor&aacute;rios dos jogos est&atilde;o no seu fuso hor&aacute;rio. Por "
+#~ "favor clique aqui para reverter para hor&aacute;rio local."
+

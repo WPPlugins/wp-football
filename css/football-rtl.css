@@ -1,0 +1,292 @@
+table.wcup {
+ font-size:11px;
+ font-family: Arial, Helvetica, sans-serif !important;
+ color:#333;
+ border-collapse: collapse;
+ border: none !important;
+ width: 100%;
+}
+table.wcup caption {
+ font-size: 14px;
+ text-align: right;
+ padding: 5px 0;
+ margin-bottom: 1px;
+ color: #464646;
+ font-weight: bold;
+}
+table.wcup thead th, table.wcup .ttitle {
+ font-family: Arial, Helvetica, sans-serif !important;
+ line-height: 31px !important;
+ background: url(../images/gray-grad.png) repeat-x;
+ font-weight: bold;
+ text-align: right !important;
+ height: 31px !important;
+ padding: 0 5px !important;
+ color: #333 !important;
+}
+table.wcup thead td {
+  font-weight:bold;
+  padding: 6px 5px !important;
+  font-size: 13px;
+  background: none !important;
+}
+table.wcup tfoot {
+ color:#464646;
+ text-transform:uppercase;
+ font-size:1.4em; 
+ font-weight: bold;
+}
+table.wcup tfoot tr th {
+ padding:15px 2px;
+}
+table.wcup tbody tr.even {
+ background-color:#f9f9f9 !important;
+ border-left: none;
+ border-bottom: 1px solid #dfdfdf;
+}
+table.wcup tbody tr.odd, table.wcup tbody tr.odd td {
+ background-color:#fff !important;
+ border-bottom: 1px solid #dfdfdf;
+}
+table.wcup tbody td {
+ padding: 8px 5px !important;
+ text-align:right !important;
+}
+table.wcup tbody th {
+ text-align:right;
+ padding:5px !important;
+}
+table.wcup tbody td a, table.wcup tbody th a {
+ color:#21759B;
+ text-decoration:none;
+ font-weight:bold; 
+}
+table.wcup tbody td a:hover, table.wcup tbody th a:hover {
+ color:#D54E21;
+ text-decoration:none;
+}
+
+table.wcup img {
+  margin: 0;
+  vertical-align:middle;
+  border:1px solid #8a8a8a;
+}
+  
+table.wcup .tcenter {
+	text-align:center !important;
+}	
+table.wcup .tright {
+	text-align:left !important;
+}	
+table.wcup .o { width: 7%; text-align: center !important; padding: 0 5px !important; }
+table.wcup .t { width: 35%; }
+table.wcup .n { width: 5%; }
+table.wcup .dt { width: 12%; }
+table.wcup .v { width: 30%; padding-left: 10px !important; }
+table.wcup .i { width: 3%; padding: 0 !important; vertical-align: middle; }
+table.wcup .s { width: 18%; }
+table.wcup .r { width: 8%; }
+table.wcup .cl { width: 25%; font-size: 12px; font-weight: normal; }
+table.wcup .ci { width: 75%; }
+table.wcup .ttitle { font-size: 14px; }
+table.wcup .stg { font-weight: bold; }
+
+.tzcContainer {
+	cursor:pointer;
+}
+.tzcLocal, .tzcClient { font-size: 11px; }
+.tzcLocal img, .tzcClient img { margin: 0; }
+.TZCclient { font-weight:bold; }
+
+li.widget_football, .tabTeams ul li ul li { padding-right: 0 !important; background: none !important; }
+
+
+div.wpf_container {
+	margin: 10px 0 !important; 
+	width: 99%
+}	
+
+div.wpFootball_panes {
+	clear: right;	
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+	
+/* tab pane */
+div.wpFootball_panes .tb {
+	display:none;
+	padding:8px 15px;
+	background-color:#ffffff;
+}
+
+ul.wpFootball {  
+	margin:0 !important; 
+	padding:0;
+	font-family: tahoma, arial, verdana, sans-serif;
+}
+
+/* single tab */
+
+ul.wpFootball li {  
+	float:right;	 
+	padding:0 !important; 
+	margin:0 !important;  
+	list-style-type:none !important;
+	list-style-position: outside !important;
+}
+
+/* link inside the tab. uses a background image */
+ul.wpFootball a { 
+	float:left;
+	font-size: 13px;
+	font-family: tahoma, arial, verdana, sans-serif;
+	display:block;
+	padding:0 6px !important;
+	text-align: center;	
+	text-decoration:none;
+	color:#333 !important;
+	margin-left: 2px !important;
+	background: #f2f2f2;
+	position:relative;
+	outline: none;
+	height: 26px  !important;	
+	line-height: 26px !important;
+	border: 1px solid #ccc;	
+}
+
+ul.wpFootball a:hover {
+	background-color:#e3e3e3 !important;
+	color:#333 !important;
+}
+	
+/* selected tab */
+ul.wpFootball a.current {
+	background-color:#ffffff !important;
+	color:#000 !important;	 
+	cursor:default;
+}
+
+ul.wpFootball li:before{
+	content: none !important;	
+}  
+/* 
+    root element for the scrollable. 
+    when scrolling occurs this element stays still. 
+*/ 
+div.wpf_scrollable { 
+    /* required settings */ 
+    position:relative; 
+    overflow:hidden; 
+    width: 88%; 
+    height:26px !important; 
+	line-height: 26px !important;	
+} 
+ 
+/* 
+    root element for scrollable items. Must be absolutely positioned 
+    and it should have a super large width to accomodate scrollable items. 
+    it's enough that you set width and height for the root element and 
+    not for this element. 
+*/ 
+ul.wpFootball  { 
+    /* this cannot be too large */ 
+    width:20000em; 
+    position:absolute; 
+    right: 0;
+} 
+ 
+ 
+/* 
+    a single item. must be floated on horizontal scrolling 
+    typically this element is the one that *you* will style 
+    the most. 
+*/ 
+div.wpf_container a.prev, div.wpf_container a.next {
+	margin-top:4px;	
+}
+/* prev, next */
+div.wpf_container a.prev, div.wpf_container a.next {
+	width:18px;
+	height:18px;
+	float:left;
+	cursor:pointer;
+	font-size:1px;
+}
+div.wpf_container a.prev {
+	margin-right: 3px;
+}
+div.wpf_container a.next {
+	margin-left: 3px;
+	padding-right: 0 !important;
+}	
+div.wpf_container a.prev {
+	background:url(../images/left.png) 0 -18px no-repeat;
+}
+div.wpf_container a.next {
+	float: right;
+	background:url(../images/right.png) 0 -18px no-repeat !important;
+	clear:right;	
+} 
+div.wpf_container a.prev:hover {
+	background-position:0 -18px;		
+}
+div.wpf_container a.next:hover {
+	background-position: 0 -18px;		
+}
+/* disabled navigational button */
+div.wpf_container a.prev.disabled {
+	background:url(../images/left.png) no-repeat;
+	cursor: default;
+}
+div.wpf_container a.next.disabled {
+	background:url(../images/right.png) 0 0 no-repeat !important;
+	cursor: default;
+}
+
+.title_wpFootball {
+	line-height: 30px !important;
+	background-color: #464646;
+	margin: 0 0 10px 0 !important;
+	padding: 0 10px 0 0 !important;
+	color: #fff !important;
+	font-size: 1.2em !important;
+}
+.wpf_loading {
+	display: none;
+	text-align: left;
+	height: 16px;
+	line-height: 16px;
+}
+#menu_groups, #menu_groups li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#menu_groups {
+	border-bottom:0.1em solid #ccc;
+	height:2em;
+	margin:1em 0;
+	padding-right: 12px;
+}
+#menu_groups li {
+	border: 0.1em solid #ccc;
+	border-bottom: none;
+	float: right;
+	margin:0 0 0 6px;
+}
+#menu_groups li a {
+	background: #F2F2F2;
+	color:#000000;
+	display:block;
+	font-size: 11px;
+	padding:3px 14px;
+	outline: none;
+}
+#menu_groups li a.sel {
+	background: #FFFFFF;
+	color:#000;
+	font-weight:bold;
+	border-bottom: 1px solid #fff;
+}
